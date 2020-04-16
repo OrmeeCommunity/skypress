@@ -10,7 +10,7 @@ splits:
     prefix: "src/CustomPostType"
     target: "https://${GH_TOKEN}@github.com/OrmeeCommunity/skypress-custom-post-type.git"
 
-# List of references to split (defined as regexp)
+
 origins:
   - ^master$
   - ^develop$
