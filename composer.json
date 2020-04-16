@@ -1,0 +1,32 @@
+{
+    "name": "ormeecommunity/skypress",
+    "description": "",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "symfony/dependency-injection": "^5.0",
+        "symfony/finder": "^5.0"
+    },
+    "replace": {
+        "ormeecommunity/skypress-core": "self.version",
+        "ormeecommunity/skypress-custom-post-type": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skypress\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gmulti",
+            "email": "thomasdeneulin@gmail.com"
+        }
+    ],
+    "config": {
+        "process-timeout": 1800,
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

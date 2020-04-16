@@ -1,0 +1,17 @@
+# Path to a cache directory Used to speed up the split over time by reusing git's objects
+cache_url: "/cache/gitsplit"
+
+# List of splits.
+splits:
+  -
+    prefix: "src/Core"
+    target: "https://${GH_TOKEN}@github.com/OrmeeCommunity/skypress-core.git"
+  -
+    prefix: "src/CustomPostType"
+    target: "https://${GH_TOKEN}@github.com/OrmeeCommunity/skypress-custom-post-type.git"
+
+# List of references to split (defined as regexp)
+origins:
+  - ^master$
+  - ^develop$
+  - ^v\d+\.\d+\.\d+$

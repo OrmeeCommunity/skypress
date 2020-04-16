@@ -1,0 +1,26 @@
+{
+    "name": "ormeecommunity/skypress-custom-post-type",
+    "description": "",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skypress\\CustomPostType\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Gmulti",
+            "email": "thomasdeneulin@gmail.com"
+        }
+    ],
+    "config": {
+        "process-timeout": 1800,
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
