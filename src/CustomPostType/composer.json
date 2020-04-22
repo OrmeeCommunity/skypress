@@ -4,7 +4,8 @@
     "license": "MIT",
     "type": "library",
     "require": {
-        "php": ">=7.2"
+        "php": ">=7.2",
+        "ormeecommunity/skypress-core" : "*"
     },
     "autoload": {
         "psr-4": {
