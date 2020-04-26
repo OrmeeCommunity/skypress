@@ -1,0 +1,27 @@
+{
+    "name": "ormeecommunity/skypress-menu",
+    "description": "",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "ormeecommunity/skypress-core" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skypress\\Menu\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Gmulti",
+            "email": "thomasdeneulin@gmail.com"
+        }
+    ],
+    "config": {
+        "process-timeout": 1800,
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

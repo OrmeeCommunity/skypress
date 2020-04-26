@@ -12,6 +12,12 @@ splits:
   -
     prefix: "src/Taxonomy"
     target: "https://${GH_TOKEN}@github.com/OrmeeCommunity/skypress-taxonomy.git"
+  -
+    prefix: "src/Headless"
+    target: "https://${GH_TOKEN}@github.com/OrmeeCommunity/skypress-headless.git"
+  -
+    prefix: "src/Menu"
+    target: "https://${GH_TOKEN}@github.com/OrmeeCommunity/skypress-menu.git"
 
 
 origins:

@@ -10,7 +10,9 @@
     "replace": {
         "ormeecommunity/skypress-core": "self.version",
         "ormeecommunity/skypress-custom-post-type": "self.version",
-        "ormeecommunity/skypress-taxonomy": "self.version"
+        "ormeecommunity/skypress-taxonomy": "self.version",
+        "ormeecommunity/skypress-headless": "self.version",
+        "ormeecommunity/skypress-menu": "self.version"
     },
     "autoload": {
         "psr-4": {
